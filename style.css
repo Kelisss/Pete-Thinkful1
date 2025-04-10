@@ -5,31 +5,18 @@ body { background-color: #eae2b7;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
      }
-nav ul { list-style-type: none;padding: 0; }
-nav ul li { display: flex;justify-content: center;padding:  10px; }
-/* Set the font family for any h1, h2, or h3 heading */
-h1 {text-align: center;}
-h2 {text-align: center;}
-h3 {text-align: center;}
+nav{ text-align: center;
+ }/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
   font-family: "Playfair Display", Times, serif;
+  text-align: center;
 }
-h4 {text-align: center;}
-h5 {text-align: center;}
 article {
   padding: 50px 0;
 }
-h6 {text-align: center;}
 
-<nav>
-  <ul>
-    <li><a href="#about">About</a></li>
-  </ul>
-</nav>
-<nav>
-  <ul>  
-    <li><a href="#portfolio">Portfolio</a></li>
-  </ul>
-</nav>
 
 a:link {color:#d62828}
 a:hover {color: #f77f00;}
@@ -49,7 +36,7 @@ div {
   width: 600px;
 }
 
-img { border-radius: 50%;border-property:2px color #003049
+img {
   width: 100%;
   max-width: 200px;
   height: auto;
@@ -62,4 +49,7 @@ hr {
 /* Add your solution below */
 
 .image-circle { border-radius: 50%;border:2px soild #003049 
+}
+header, footer {
+  text-align: center;
 }
